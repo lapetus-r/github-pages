@@ -1,7 +1,7 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+title: "Java Garbage Collection"
+date: 2021-03-06 18:30:00 +0900
+categories: java
 ---
 
 # Java Garbage Collection
