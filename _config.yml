@@ -98,11 +98,11 @@ author:
   avatar           : "/assets/images/ocean_view.png"
   bio              : "Software developer interested in Server/Data engineering."
   location         : "Republic of Korea"
-  email            : lapetus.r@gmail.com
+  email            :
   links:
-#     - label: "Email"
-#       icon: "fas fa-fw fa-envelope-square"
-#       url: "mailto:lapetus.r@gmail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lapetus.r@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://lapetus-r.github.io"
