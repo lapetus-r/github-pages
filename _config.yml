@@ -96,9 +96,9 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Software developer interested in Server/Data engineering."
+  location         : "Republic of Korea"
+  email            : lapetus.r@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
