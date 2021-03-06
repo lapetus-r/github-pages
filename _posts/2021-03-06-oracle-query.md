@@ -1,4 +1,3 @@
-# Oracle Query
 ### 테이블 생성
 ```sql
 CREATE TABLE "%DB_NAME%"."%TABLE_NAME%"
