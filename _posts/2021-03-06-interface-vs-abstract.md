@@ -15,6 +15,7 @@
 
 # 차이점
 * 인터페이스를 사용하는 가장 큰 이유는 다중상속(implements)이 가능하기 때문이다.
+
 ```java
 public class Tiger extends Cat {
   @Override public void eat() {
