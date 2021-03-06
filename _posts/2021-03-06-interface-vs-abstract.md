@@ -1,8 +1,8 @@
 # 추상클래스(abstract class)
 * 추상클래스는 추상 메서드가 하나 이상 포함되는 클래스다. 여기서 추상 메서드라 함은 메서드의 선언부만 있고 본문이 없는것을 말한다.
-```java
-abstract public void test(int a);
-```
+  ```java
+  abstract public void test(int a);
+  ```
 * 추상클래스를 상속받은 자식클래스는 반드시 추상메소드를 오버라이딩 해야한다. 강제구현을 요구할 때 자주 쓰임.
 
 # 인터페이스(interface)
