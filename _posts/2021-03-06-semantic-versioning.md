@@ -1,5 +1,3 @@
-# Semactic Versioniong
-
 ## Summary
 
 * Version Number 는 일반적으로 Major.Minor.Patch 형태를 따른다.
