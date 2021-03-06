@@ -85,7 +85,6 @@ SELECT value1, value2 FROM DUAL
 ```
 
 ### Mybatis 리턴
-
 | Method | Success | Fail |
 |:---:|:---:|:---:|
 | select() | select 결과 | null |
