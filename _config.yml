@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Harry"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/ocean_view.png"
   bio              : "Software developer interested in Server/Data engineering."
   location         : "Republic of Korea"
   email            : lapetus.r@gmail.com
