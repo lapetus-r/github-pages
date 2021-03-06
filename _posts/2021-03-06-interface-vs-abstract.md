@@ -17,37 +17,36 @@
 
 # 차이점
 * 인터페이스를 사용하는 가장 큰 이유는 다중상속(implements)이 가능하기 때문이다.
-
-```java
-public class Tiger extends Cat {
-  @Override public void eat() {
-    // ...구현부...
+  ```java
+  public class Tiger extends Cat {
+    @Override public void eat() {
+      // ...구현부...
+    }
   }
-}
 
-public abstract class Cat {
-  public abstract void eat();
-}
-```
-```java
-public class CampingCar implements Vehicle, Toilet, (...etc) {
-  @Override public void run(void) {
-    // ...구현부...
+  public abstract class Cat {
+    public abstract void eat();
   }
+  ```
+  ```java
+  public class CampingCar implements Vehicle, Toilet, (...etc) {
+    @Override public void run(void) {
+      // ...구현부...
+    }
   
-  @Override public void flush(void) {
-    // ...구현부...
+    @Override public void flush(void) {
+      // ...구현부...
+    }
   }
-}
 
-public interface Vehicle {
-  public void run();
-}
+  public interface Vehicle {
+    public void run();
+  }
 
-public interface Toilet {
-  public void flush();
-}
-```
+  public interface Toilet {
+    public void flush();
+  }
+  ```
 * abstract를 받는(extends) 클래스는 "순수상속"을 받는다고 하고, interface를 받는(implements) 클래스는 "구현상속"을 받는다고 한다.
 * abstract class로부터의 상속은 부모로부터의 상속이라고 할 수 있고, interface로부터의 상속은 조언자로부터의 상속이라고 할 수 있다.
 
