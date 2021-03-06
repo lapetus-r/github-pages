@@ -17,7 +17,8 @@
 * Major 버전이 증가할 때는 Minor 와 Patch 를, Minor 가 증가할 때는 Patch 를 0 으로 초기화한다.
 * 공개 API 에 기존과 호환되지 않는 변화가 있을 때는 반드시 Major 를 올린다.
 * Major 가 0인 Version 은 초기 개발을 위해서 사용한다. 이 때의 API 는 불안정한 것으로 봐도 무방하다.
-* 공개 API 에 기존과 호환되는 새로운 기능을 추가할 때는 반드시 Minor 를 올린다. 공개 API 의 일부를 앞으로 제거(Deprecate)할 것이라 표시한 경우나 내부 비공개 코드에 새로운 기능이 대폭 추가됐을 때, 개선사항이 있을 때도 올릴 수 있다.
+* 공개 API 에 기존과 호환되는 새로운 기능을 추가할 때는 반드시 Minor 를 올린다. 공개 API 의 일부를 앞으로 제거(Deprecate)할 것이라 표시한 경우나 내부 비공개 코드에 새로운 기능이 대폭
+  추가됐을 때, 개선사항이 있을 때도 올릴 수 있다.
 * Patch 는 반드시 이전 버전 API 와 호환되는 버그 수정의 경우에만 올린다. 여기서 버그 수정이라 함은 잘못된 내부 기능을 고치는 것이다.
 * 1.0.0 부터는 공개 API 를 정의하고 이후 버전번호는 공개 API 에서 어떻게 바뀌는지에 따라 올린다.
 
@@ -79,6 +80,7 @@
 ```
 
 ##### Compare Library
+
 * https://github.com/npm/node-semver
 * https://github.com/k-bx/python-semver
 * https://github.com/iantruslove/SemverStringer
@@ -86,6 +88,7 @@
 ## With GitFlow
 
 ##### Question
+
 * Version 변경이 무엇을 의미하는가?
 * 이전 Version 호환성을 깨뜨리는가, 그렇지 않은가?
 * 어떤 Branch 로부터 해당 Version 이 생성되었을까?
@@ -98,5 +101,7 @@
 4. foobar-1.0.2 -> foobar-1.1.0-rc1
 5. foobar-1.2.0 -> foobar-2.0.0
 ```
+
 ##### Answer
+
 * http://therebelrobot.github.io/HubFlow-Site/build/#/examples
