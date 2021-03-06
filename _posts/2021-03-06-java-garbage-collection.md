@@ -1,9 +1,3 @@
----
-title: "Java Garbage Collection"
-date: 2021-03-06 18:30:00 +0900
-categories: java
----
-
 # Java Garbage Collection
 
 ### Stop The World
