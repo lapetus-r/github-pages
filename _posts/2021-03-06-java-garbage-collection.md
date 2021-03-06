@@ -1,5 +1,3 @@
-# Java Garbage Collection
-
 ### Stop The World
 * GC(Garbage Collection) 을 수행하기 위해 GC 를 수행하는 쓰레드를 제외한 나머지를 모두 멈추는 작업.
 * 어떤 GC 를 사용하더라도 STW(Stop The world) 는 발생. 일반적으로 GC 튜닝이란 이 STW 시간을 줄이는 것을 말함.
