@@ -46,7 +46,7 @@
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 insert_multiple_data.sql %}
 
-##### 엑셀을 활용해 복수 데이터 한번에 추가하는 쿼리 작성
+##### 엑셀 활용, 복수 데이터 한번에 추가하는 쿼리 작성
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 insert_multiple_data.xlsx %}
 
