@@ -1,6 +1,4 @@
-### 테이블 생성
-
-<script src="https://gist.github.com/lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0.js"> </script>
+###### 테이블 생성
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 create_table.sql %}
 
