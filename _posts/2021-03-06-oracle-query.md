@@ -1,24 +1,24 @@
-##### 테이블 생성
+##### Table 생성
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 create_table.sql %}
 
-##### 컬럼 추가
+##### Column 추가
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 add_column.sql %}
 
-##### 컬럼 삭제
+##### Column 삭제
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 drop_column.sql %}
 
-##### 컬럼명 변경
+##### Column 이름 변경
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 rename_column.sql %}
 
-##### 컬럼타입 변경
+##### Column 타입 변경
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 modify_column.sql %}
 
-##### 테이블 주석
+##### Table 주석 추가
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 comment_column.sql %}
 
