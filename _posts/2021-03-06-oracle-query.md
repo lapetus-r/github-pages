@@ -2,6 +2,14 @@
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 create_table.sql %}
 
+##### Table 정보 확인
+
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 select_table_info.sql %}
+
+##### Table 주석 추가
+
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 comment_column.sql %}
+
 ##### Column 추가
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 add_column.sql %}
@@ -18,10 +26,6 @@
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 modify_column.sql %}
 
-##### Table 주석 추가
-
-{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 comment_column.sql %}
-
 ##### Constraint 추가
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 add_constraint.sql %}
@@ -37,10 +41,6 @@
 ##### Sequence 삭제
 
 {% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 drop_sequence.sql %}
-
-##### Table 정보 확인
-
-{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 select_table_info.sql %}
 
 ##### 복수 데이터 한번에 추가
 
