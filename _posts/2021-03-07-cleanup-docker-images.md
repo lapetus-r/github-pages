@@ -4,3 +4,5 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 ```
+
+{% lapetus-r/585bb4e5a47e8be4b4af7cc57e621975 }
