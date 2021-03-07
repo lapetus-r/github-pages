@@ -1,6 +1,6 @@
 ### 테이블 생성
 
-{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0?file=add_column.sql %}
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 add_column.sql %}
 
 ```sql
 CREATE TABLE "%DB_NAME%"."%TABLE_NAME%"
