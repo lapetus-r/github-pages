@@ -1,107 +1,54 @@
 ### 테이블 생성
 
-{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 add_column.sql %}
-
-```sql
-CREATE TABLE "%DB_NAME%"."%TABLE_NAME%"
-(
-    "%COLUMN_1%" VARCHAR2(20) NOT NULL ENABLE,
-    "%COLUMN_2%" CLOB NOT NULL ENABLE,
-    CONSTRAINT "%PRIMARY_KEY_NAME%" PRIMARY KEY ("%COLUMN_1%")
-        USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS
-        STORAGE(INITIAL 81920 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
-        PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT)
-        TABLESPACE "%INDEX_NAME%" ENABLE
-) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
-STORAGE(INITIAL 81920 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
-PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT
-)
-TABLESPACE "%TABLESPACE_NAME%"
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 create_table.sql %}
 
 ### 컬럼 추가
 
-```sql
-ALTER TABLE %TABLE_NAME% ADD (%COLUMN_NAME% DATE NOT NULL ENABLE)
-```
-{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 %}
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 add_column.sql %}
 
 ### 컬럼 삭제
 
-```sql
-ALTER TABLE %TABLE_NAME% DROP COLUMN %COLUMN_NAME%
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 drop_column.sql %}
 
 ### 컬럼명 변경
 
-```sql
-ALTER TABLE %TABLE_NAME% RENAME COLUMN %AS_IS% TO %TO_BE%
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 rename_column.sql %}
 
 ### 컬럼타입 변경
 
-```sql
-ALTER TABLE %TABLE_NAME% MODIFY (%COLUMN_NAME% VARCHAR2(10))
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 modify_column.sql %}
 
 ### 테이블 주석
 
-```sql
-COMMENT ON COLUMN %DB_NAME%.%COLUMN_NAME% IS '%COMMENT%'
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 comment_column.sql %}
 
 ### PK 추가
 
-```sql
-ALTER TABLE %TABLE_NAME% ADD CONSTRAINT %FK_NAME% FOREIGN KEY ( %COLUMN_NAME% ) REFERENCES %REFERENCE_TABLE% ( %COLUMN_NAME% )
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 add_constraint.sql %}
 
 ### PK 삭제
 
-```sql
-ALTER TABLE %TABLE_NAME% DROP CONSTRAINT %FK_NAME%
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 drop_constraint.sql %}
 
 ### 시퀀스 추가
 
-```sql
-CREATE SEQUENCE "%DB_NAME%"."%SEQ_NAME%" MINVALUE 10 MAXVALUE 9999999999 INCREMENT BY 1 START WITH 10 CACHE 20 ORDER NOCYCLE
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 create_sequence.sql %}
 
 ### 시퀀스 삭제
 
-```sql
-DROP SEQUENCE "%DB_NAME%"."%SEQ_NAME%"
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 drop_sequence.sql %}
 
 ### 테이블 정보 확인
 
-```sql
-SELECT *
-FROM USER_OBJECTS
-WHERE OBJECT_TYE = ‘TABLE’ AND OBJECT_NAME = 테이블명
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 select_table_info.sql %}
 
 ### 테이블 복수 데이터 한번에 추가
 
-```sql
-INSERT INTO %TABLE_NAME% (COLUMN1, COLUMN2)
-SELECT value1, value2
-FROM DUAL
-UNION ALL
-SELECT value1, value2
-FROM DUAL
-UNION ALL
---...etc...
-SELECT value1, value2
-FROM DUAL
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 insert_multiple_data.sql %}
 
 ### 엑셀 활용 Query 작성
 
-```sql
-="INSERT INTO 테이블명 VALUES ('"&A1&"', '"&B2&"');"
-```
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0 insert_multiple_data.xlsx %}
 
 ### Mybatis 리턴
 
