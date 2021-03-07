@@ -22,7 +22,7 @@ TABLESPACE "%TABLESPACE_NAME%"
 ```sql
 ALTER TABLE %TABLE_NAME% ADD (%COLUMN_NAME% DATE NOT NULL ENABLE)
 ```
-{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0/add_column.sql %}
+{% gist lapetus-r/d73a816d3fa2452aa6fe0f5e65d63ec0/ddl.sql %}
 
 ### 컬럼 삭제
 
