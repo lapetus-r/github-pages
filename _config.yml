@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko_KR"
-title                    : "Undefined"
+title                    : "Lapetus's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "lapetus"
@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Harry"
+  name             : "lapetus"
   avatar           : "/assets/images/profile_image.jpg"
-  bio              : "🧑🏻‍💻Software developer interested in Server/Data engineering."
+  bio              : "🧑🏻‍💻"
   location         : "Republic of Korea"
   email            :
   links:
